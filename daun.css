@@ -1,0 +1,59 @@
+
+
+#doc {
+	width: 100%;
+	
+	float: left;
+	background-image: url(https://www.dtek-dem.com.ua/media/page/news-image-1200-1585900611047.png);
+	background-blend-mode: multiply;
+	background-color: #a3ceff;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#doc h3 {
+	text-align: center;
+	font-size: 4em;
+	color: #fff;
+
+	padding-top: 60px;
+	
+}
+.slide {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.slide h4{
+	margin: 3%;
+	font-size: 1.5em;
+	color: #fff;
+
+}
+.slide-img img{
+		display: block;
+		margin: 0 auto;
+}
+
+.arrow {
+ top: 50%;
+ transform: translateY(-50%);
+ position: absolute;
+ z-index: 99;
+ width: 2rem;
+ height: 2rem;
+ border: none;
+}
+
+.prev{
+ left: 10px;
+ background: url(img/ar2.svg) center no-repeat;
+ background-size: 170%;
+}
+
+.next{
+ right: 10px;
+ background: url(img/ar.svg) center no-repeat;
+ background-size: 170%;
+}

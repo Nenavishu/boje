@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ООО "ГорЭнерго"</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="daun.css">
+	<link rel="shortcut icon" href="img/lmm.png" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<div id="logo" onclick="slowScroll('#top')">
+
+			<span>ГорЭнерго</span>
+		</div>
+		<div id="about">
+			<a href="#" title="О компании" onclick="slowScroll('#main')">О компании</a>
+			<a href="#" title="Галерея" onclick="slowScroll('#overview')">Галерея</a>
+			<a href="#" title="Услуги" onclick="slowScroll('#list')">Услуги и Продукция</a>
+			<a href="#" title="Лицензии и допуски" onclick="slowScroll('#doc')">Лицензии и допуски</a>
+			
+			
+			<a href="#" title="Контакты" onclick="slowScroll('#feedback')">Контакты</a>
+		</div>	
+	</header>
+
+	<div id="top">
+		<h1>Компания</h1>
+		<h3>С высокими стандартами</h3>	
+	</div>	
+
+	<div id="main">
+		<div id="intro">
+			<h2>ГорЭнерго</h2>
+			<span>Для вас всё лучшее</span>
+		</div>
+		<div id="text">
+			<p>Компания <b><i>«ГорЭнерго»</i></b> состоит из специалистов, имеющих большой опыт работы в области проектирования, строительства кабельных и воздушных линий электропередач, а также комплексных поставок электрооборудования потребителям в Красноярске и на всей территории Красноярского края.</p>
+
+			<p>Приоритетными направлениями для нашей компании является <i>гибкая ценовая политика</i> и <i>индивидуальный подход к каждому клиенту</i>. В зависимости от объемов, мы предоставляем своим партнерам льготы в виде дополнительных скидок и выгодных форм расчета за услуги и поставленную продукцию.</p>
+		</div>
+		<!--<div id="text2">
+			<p class="center">Крупные реализованные объекты</p><br>
+			<p class="center">2011-2013 года</p>
+			<p>Работы по реконструкции распределительных сетей 10-0,4 кВ в п.Покровка, п. Николаевка, п.Суворовский.</p>
+			<p class="center">2013 год</p>
+			<p>Строительство двухцепной КЛ 10 кВ для технологического присоединения ОАО "Лесосибирский ЛДК №1";
+Cтроительство наружных сетей электроснабжения 6 кВ гипермаркета "О"КЕЙ", г.Красноярск.</p>
+			<p class="center">2014 год</p>
+			<p>Проектирование и монтаж системы электроснабжения ДНТ «Времена года»;
+Строительство КЛ-10 кВ для технологического присоединения СКГАУ «Футбольный клуб «Енисей».</p>	
+		</div>-->
+	</div>
+
+	<div id="overview">
+		<h2>Галлерея</h2>
+		<h4>Нашей работы</h4>
+
+		<div class="img">
+			<img src="img/1.jpg" alt="Установка ГНБ">
+			<span>Установка ГНБ</span>
+		</div>
+		<div class="img">
+			<img src="img/3.jpg" alt="Столбовая трансформаторная подстанция">
+			<span>Столбовая трансформаторная подстанция</span>
+		</div>
+		
+		<div class="img">
+			<img src="img/2.jpg" alt="Траншея №1">
+			<span>Траншея №1</span>
+		</div>
+		<div class="img">
+			<img src="img/4.jpg" alt="Траншея №2">
+			<span>Траншея №2</span>
+		</div>
+		
+	</div>
+	
+	<div id="list">
+		<center><h2>Услуги и Продукция</h2></center>
+		<div class="products">
+			<a class="link" href="#bly" data-toggle="modal"><div class="item">
+				<h3>Проектирование электроснабжения</h3>
+				<img src="img/pr.png" alt="">
+			</div></a>
+			<a class="link" href="#bly2" data-toggle="modal"><div class="item">
+				<h3>Строительные и электромонтажные работы</h3>
+				<img src="img/t.jpeg" alt="">
+			</div></a>
+			<a class="link" href="#bly3" data-toggle="modal"><div class="item">
+				<h3>Аренда спецтехники</h3>
+				<img src="img/at.png" alt="">
+			</div></a>
+		</div>
+		<div class="products">
+			<a class="link" href="#bly4" data-toggle="modal"><div class="item">
+				<h3>Комплектация</h3>
+				<img src="img/line.jpg" alt="">
+			</div></a>
+			<a class="link" href="#bly5" data-toggle="modal"><div class="item">
+				<h3>АИИС КУЭ</h3>
+				<img src="img/ai.jpg" alt="">
+			</div></a>
+			<a class="link" href="#bly6" data-toggle="modal"><div class="item">
+				<h3>Горизонтально-направленное бурение</h3>
+				<img src="img/un.jpg" alt="">
+			</div></a>
+		</div>
+		<div class="products">
+			<a class="link" href="#bly7" data-toggle="modal"><div class="item">
+				<h3>Электроизмерительная лаборатория</h3>
+				<img src="img/elekt.jpg" alt="">
+			</div></a>
+			<a class="link" href="#bly8" data-toggle="modal"><div class="item">
+				<h3>Пункт коммерческого учёта электроэнергии</h3>
+				<img src="img/ktp.jpg" alt="">
+			</div></a>
+			<a class="link" href="#bly9" data-toggle="modal"><div class="item">
+				<h3>Комплектные трансформаторные подстанции</h3>
+				<img src="img/una.jpg" alt="">
+			</div></a>
+		</div>
+	</div>
+
+
+	<div class="coci" id="doc">
+		<h3>Лицензии и допуски</h3>
+		<div class="slider">
+			<div class="slide">
+				<h4>Свидетельство о регистрации электролаборатории:</h4>
+				<div class="slide-img">
+					<img src="img/lab.jpg" alt="">
+				</div>				
+			</div>
+			<div class="slide">
+				<h4>Строительный допуск:</h4>
+				<div class="slide-img">
+					<img src="img/gestr1.jpg" alt="">				
+				</div>
+			</div>
+			<div class="slide">
+				<h4>Строительный допуск:</h4>
+				<div class="slide-img">
+					<img src="img/gestr2.jpg" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<h4>Строительный допуск:</h4>
+				<div class="slide-img">
+					<img src="img/gestr3.jpg" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<h4>Членство в СРО:</h4>
+				<div class="slide-img">
+					<img src="img/gesro.jpg" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<h4>Допуск к проектным работам:</h4>
+				<div class="slide-img">
+					<img src="img/sro.jpg" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<h4>Допуск к проектным работам:</h4>
+				<div class="slide-img">
+					<img src="img/sro2.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="feedback">
+
+		<div id="phone">
+			<p>
+				Адрес: ООО "ГорЭнерго": 660012, г. Красноярск,
+				ул. Судостроительная 26а, помещение 145. <br>
+				<br>
+
+				Режим работы: пн.-пт.: 08.00-17.00 <br>
+				<br>
+
+				Телефон/факс: 8 (391) 275-66-60. <br>
+				<br>
+
+				E-mail: grn24@yandex.ru. 
+			</p>
+		</div>
+	
+		<div id="contacts">
+			
+			<center><h5>Обратная связь</h5></center>
+			
+			<form id="form_input" action="php/send.php" method="post">
+				<label for="name">Имя <span>*</span></label><br>
+				<input class="pole" type="text" placeholder="Введите имя" name="name" id="name" required><br>
+				<label for="email">Ваша почта <span>*</span></label><br>
+				<input class="pole" type="email" placeholder="Введите email" name="email" id="email" required><br>
+				<label for="message">Сообщение <span>*</span></label><br>
+				<textarea placeholder="Введите ваше сообщение" name="message" id="message" required></textarea><br>
+				<input id="mess_send" class="btn" type="submit" value="Отправить"> 
+			</form>
+		</div>
+		
+		<div id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2232.210100963261!2d92.83099831593938!3d55.980389180614814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7b1f794a57b5d%3A0xfc8a0d455ecfb838!2z0JPQvtGA0Y3QvdC10YDQs9C-!5e0!3m2!1sru!2sru!4v1620407060455!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		
+	</div>
+
+
+	<div class="modal fade" role="dialog" id="bly">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Проектирование электроснабжения</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+<!--   ......................................modal1................................................       -->
+
+	      </div>
+	      <div class="modal-body">
+	        <p>Мы осуществляем следующие проектные работы:
+	        	<ul>
+	        		<li>Проектирование систем электроснабжения жилых и общественных зданий, коттеджей, индивидуальных домов, промышленных предприятий.</li>
+	        		<li>Проектные работы по реконструкции существующих объектов электроснабжения.</li>
+	        		<li>Проектирование трансформаторных и распределительных подстанций.</li>
+	        		<li>Проектирование кабельных и воздушных линий электропередачи.</li>
+	        		<li>Проектирование внутренних электрических сетей.</li>
+	        		<li>Проектирование заземляющих устройств.</li>
+	        		<li>Проектирование молниезащиты и защиты от перенапряжений зданий и сооружений.</li>
+	        		<li>Составление сметной документации.</li>
+	        		<li>Авторский надзор.</li>
+	        		<li>Согласование.</li>
+	        		<li>Комплектование "под ключ" объектов необходимыми материалами и оборудованием.</li>
+	        	</ul>	
+			</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+<!--   ......................................modal2................................................       -->
+
+	<div class="modal fade" role="dialog" id="bly2">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Строительные и электромонтажные работы</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	        <p>Основные работы, выполняемые нашей компанией:
+	        	<ul>
+	        		<li>Строительство воздушных линий напряжением 0,4 кВ, 6 кВ, 10 кВ, 35 кВ.</li>
+	        		<li>Прокладка кабельных линий напряжением 0,4 кВ, 6 кВ, 10 кВ, 35 кВ, 110 кВ.</li>
+	        		<li>Монтаж КТП, трансформаторных подстанций и распределительных пунктов.</li>
+	        		<li>Земляные работы: выполнение траншей и котлованов.</li>
+	        		<li>Ремонт и обслуживание силового оборудования.</li>
+	        		<li>Услуги спецтехники (экскаватор до 6,5 метров, компрессор).</li>
+	        		<li>Техническое и эксплуатационное обслуживание электрических сетей и электроустановок 6-10 кВ.</li>
+	        	</ul>	
+			</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!--   ......................................modal3................................................       -->
+
+	<div class="modal fade" role="dialog" id="bly3">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Аренда спецтехники</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	        <p>
+	        	<table border="0" rules="rows"  cellspacing="0" cellpadding="0">
+				   <tr>
+				    <th>Наименование техники	</th>
+				    <th>Характеристики</th>
+				    <th>Стоимость 1 маш./час, руб.</th>
+				    <th>Стоимость доставки, руб.</th>
+				    <th>Мин. ст-сть выезда, руб.</th>
+				   </tr>
+
+				   <tr><td>Экскаватор-погрузчик Case 695 Super R</td><td>Макс. глубина копания 5,9 м, фронт. ковш 1,3 м³, ширина заднего ковша 0,3 м; 0,5 м; 0,9 м</td><td class="tdc">2000</td><td class="tdc">2000</td><td class="tdc">8000</td></tr>
+				   <tr><td>Баровая грунторезная машина БГМ-1 на базе МТЗ 82	</td><td>Глубина копания 1,2 м</td><td class="tdc">110 руб./пог. м</td><td class="tdc">2000</td><td class="tdc">8000</td></tr>
+				   <tr><td>Эвакуатор ММС SUPER GREAT</td><td>Грузоподъемность 14 т, стрела – 3,3 т. Длина кузова 8,4 м, перевозит длинномеры до 12 м</td><td class="tdc">2000</td><td class="tdc">2000</td><td class="tdc">6000</td></tr>
+				   <tr><td>Компрессор Sullair</td><td>Комплект – 2 отбойных молотка</td><td class="tdc">900	</td><td class="tdc">900</td><td class="tdc">7000</td></tr>
+				   <tr><td>Автокран-вышка HINO RANGER	</td><td>Грузоподъемность 5 т, длина стрелы 22 м, с люлькой		</td><td class="tdc">2000</td><td class="tdc">2000</td><td class="tdc">8000</td></tr>
+				   <tr><td>ГАЗ-66 бортовой с манипулятором		</td><td>Вылет 10 м, грузоподъемность 3 т, вездеход	</td><td class="tdc">2200</td><td class="tdc">2000</td><td class="tdc">8000</td></tr>
+				   <tr><td>ЗИЛ-130 с манипулятором, бортовой, самосвал</td><td>Грузоподъемность борта 6 т, грузоподъемность крана 3 т, длина кузова 4,2 м</td><td class="tdc">1800</td><td class="tdc">1800</td><td class="tdc">6000</td></tr>
+				   <tr><td>ЗИЛ-131 с лебедкой</td><td>Бочка с водой 3 м³	</td><td class="tdc">2000</td><td class="tdc">2000</td><td class="tdc">6000</td></tr>
+				   <tr><td>ГАЗ-330202 (Газель), грузо-вой с бортовой платформой</td><td>Грузоподъемность 1,5 т, длина кузова 4 м</td><td class="tdc">1000</td><td class="tdc">1000</td><td class="tdc">3000</td></tr>
+				   <tr><td>Гидромолот «Дельта F5» на базе Case 695</td><td>Энергия удара 850 Дж</td><td class="tdc">2200</td><td class="tdc">2000</td><td class="tdc">6500</td></tr>
+				   <tr><td>Ямобур на базе Case 695	</td><td>Глубина бурения до 3 м. ø отверстия 400 мм</td><td class="tdc">450 руб./пог. м</td><td class="tdc">2000</td><td class="tdc">6500</td></tr>
+			  
+				</table>
+			</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!--   ......................................modal4................................................       -->
+
+	<div class="modal fade" role="dialog" id="bly4">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Комплектация</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	        <p>Основное поставляемое нами оборудование:
+	        	<ul>
+	        		<li>Высоковольтное оборудование: трансформаторы, КТП (комплектные трансформаторные подстанции), разъединители, ограничители напряжения, стабилизаторы, конденсаторные установки.</li>
+	        		<li>Низковольтное оборудование: автоматические выключатели, реле контроля и управления, магнитные пускатели, рубильники, приборы учета.</li>
+	        		<li>Кабельно-проводниковая продукция, муфты кабельные, трубки термоусадки, наконечники, гильзы, системы прокладки кабеля.</li>
+	        		<li>Арматурно-изоляторная продукция для монтажа изолированных и неизолированных проводов.</li>
+	        		<li>Средства индивидуальной защиты.</li>
+	        		<li>Светотехническое оборудование.</li>
+	        		<li>Лампы различного применения.</li>
+	        		<li>Электрощитовое оборудование индивидуальной сборки.</li>
+	        		<li>Энергосберегающее оборудование.</li>
+	        	</ul>	
+			</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!--   ......................................modal5................................................       -->
+
+
+	<div class="modal fade" role="dialog" id="bly5">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Автоматизированная информационно-измерительная система коммерческого учёта электроэнергии</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	      	<div id="mb4"><p><b>АИИС КУЭ</b> — совокупность аппаратных и программных средств, обеспечивающих дистанционный сбор, хранение и обработку данных об энергетических потоках в электросетях. <br>
+	      	Среди разработчиков АИИС КУЭ принято условное деление системы на нижний и верхний уровень. К нижнему уровню относится оборудование и микропрограммы, работающие непосредственно на объекте учёта. К верхнему уровню относится остальная часть системы, расположенная, как правило, в центре обработки данных и офисах контролирующей организации.		
+			</p>
+			</div>
+	        
+			<div id="mb5"><img src="img/aiis.jpg" alt=""></div>
+	      
+	      <div id="mb3">
+	      		<p>Функции системы:
+		        	<ul>
+		        		<li>Автоматический сбор данных коммерческого учёта потребления (отпуска) электроэнергии по каждой точке (группе) учёта на заданных коммерческих интервалах (согласно ОАО АТС - 30 мин.).</li>
+		        		<li>Хранение параметров учёта в базе данных.</li>
+		        		<li>Обеспечение многотарифного учёта потребления (отпуска) электроэнергии.</li>
+		        		<li>Обеспечение контроля за соблюдением лимитов энергопотребления.</li>
+		        		<li>Контроль параметров электроэнергии (токов, напряжений, cos φ, частоты) на заданном интервале опроса (технически).</li>
+		        		<li>Вывод расчетных параметров на терминал и/или на устройство печати по требованию оператора.</li>
+		        		<li>Ведение единого системного времени с возможностью его корректировки.</li>
+		        		<li>Сведение баланса электроэнергии по расчетной группе (секция, система шин и т.д) на этапе наладки системы и в процессе ее эксплуатации.</li>
+		        	</ul>
+				</p>
+			</div>
+		  </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!--   ......................................modal6................................................       -->
+
+
+<div class="modal fade" role="dialog" id="bly6">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Горизонтально-направленное бурение</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	      	<div id="mb3"><p>Горизонтально-направленное бурение (ГНБ) — управляемый бестраншейный метод прокладывания подземных коммуникаций, основанный на использовании специальных буровых комплексов (установок). 
+	        		
+			</p></div>
+			
+			<div id="mb1">
+				<p>
+					Особенности:
+		        	<ul>
+		        		<li>возможность бестраншейного строительства, ремонта и санации подземных коммуникаций:cокращение сроков и объёма организационно-технических согласований перед началом работ в связи с отсутствием необходимости остановки движения всех видов наземного транспорта, перекрытия автомобильных и железных дорог;</li>
+		        		<li>под реками, оврагами, лесными массивами; в специфических грунтах (скальные породы, плавуны);</li>
+		        		<li>в охранных зонах высоковольтных воздушных линий электропередач, магистральных газо-, нефте-, продуктопроводов;</li>
+		        		<li>в условиях плотной жилищной застройки городов при прохождении трассы под автомагистралями, трамвайными путями, автомобильными дорогами, скверами и парками;</li>
+		        		<li>значительное сокращение сроков производства работ за счет использования высокотехнологичных буровых комплексов;</li>
+		        		<li>значительное сокращение количества привлекаемой для прокладки трубопроводов тяжелой техники и рабочей силы;</li>
+		        		<li>уменьшение риска аварийных ситуаций и, как следствие, гарантия длительной сохранности трубопроводов в рабочем состоянии;</li>
+		        		<li>отсутствие необходимости во внешних источниках энергии при производстве работ в связи с полной автономностью установок;</li>
+		        		<li>отсутствие необходимости производства работ по водопонижению в условиях высоких грунтовых вод.	  </li>
+		        	</ul>
+				</p>
+			</div>
+			<div id="mb2" class="mb2img"><img src="img/gnb.png" alt=""></div>
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+<!--   ......................................modal7................................................       -->
+
+<div class="modal fade" role="dialog" id="bly7">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Электроизмерительная лаборатория</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	        <p>Наша электроизмерительная лаборатория производит следующие виды работ:
+	        	<ul>
+	        		<li>Проверку целостности цепи заземления;</li>
+	        		<li>Замеры сопротивления изоляции;</li>
+	        		<li>Испытание оборудование повышенным напряжением;</li>
+	        		<li>Средства индивидуальной защиты.</li>
+	        		<li>Светотехническое оборудование.</li>
+	        		<li>Лампы различного применения.</li>
+	        		<li>Электрощитовое оборудование индивидуальной сборки.</li>
+	        		<li>Энергосберегающее оборудование.</li>
+	        		<li>Проверку обеспечения срабатывания защиты и измерение сопротивления растеканию тока контура заземления;</li>
+	        		<li>Поиск трассы существующих кабельных линий;</li>
+	        		<li>Испытания защитных средств и многое другое.</li>
+	        	</ul>	
+			</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!--   ......................................modal8................................................       -->
+
+<div class="modal fade" role="dialog" id="bly8">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Пункт коммерческого учёта электроэнергии</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	      	<div id="mb1"><p>Пункт коммерческого учёта электроэнергии ПКУЭ-10 (6) предназначен для учёта активной и реактивной энергии в воздушных распределительных сетях трехфазного переменного тока номинальным напряжением 6 (10) кВ, для передачи измеренных и вычисленных параметров электрической сети на диспетчерский пункт, для выявления фактов хищения электрической энергии, для использования в составе автоматизированных систем контроля и учета электроэнергии. ПКУЭ применяется на воздушных линиях электропередач на границах раздела балансовой принадлежности по стороне 6 (10) кВ на предприятиях энергетики, нефтегазовой отрасли, строительства, транспорта, а также в других организациях, осуществляющих самостоятельные взаиморасчеты с поставщиками или потребителями электроэнергии. 	<br>
+	        	ПКУЭ-10 (6) устанавливается на границе раздела балансовой принадлежности на существующую опору ВЛ, что не требует дополнительного землеотвода и капитальных сооружений. 
+	        		
+			</p></div>
+	        
+			<div id="mb2"><img src="img/pku.jpg" alt=""></div>
+			<div id="mb3">
+				<p>
+					Состав комплекса:
+		        	<ul>
+		        		<li>модуль высоковольтный измерительный (МВ) - предназначен для преобразования тока и напряжения в измерительные сигналы. Конструктивно состоит из измерительных трансформаторов напряжения (два ТН) и тока (два ТТ);</li>
+		        		<li>шкаф учета, сбора и передачи данных (ШУ) конструктивно состоит из многофункционального микропроцессорного счетчика активной и реактивной энергии, устройства сбора и передачи данных, смонтированных в металлическом шкафу;</li>
+		        		<li>соединительный кабель в герметичном металлорукаве с ПВХ изоляцией;</li>
+		        		<li>ограничители перенапряжений (ОПН);</li>
+		        		<li>монтажный комплект.</li>
+		        	</ul>
+				</p>
+			</div>
+			
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!--   ......................................modal9................................................       -->
+
+
+<div class="modal fade" role="dialog" id="bly9">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	      	<h4 class="modal-title">Комплектные трансформаторные подстанции</h4>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        
+	      </div>
+	      <div class="modal-body">
+	      	<div id="mb1"><p>Комплектные трансформаторные подстанции (КТП) предназначены для приема электроэнергии трехфазного переменного тока частотой 50 Гц, напряжением 6, 10 кВ или 35 кВ и преобразования ее в электроэнергию напряжением 0,4 кВ и снабжения ею потребителей. 	<br>
+			По способу работы КТП бывают тупикового (получают, преобразовывают и распределяют электроэнергию между приборами) и проходного типа (осуществляют также транзит электроэнергии).<br>
+			По форме исполнения подстанции бывают киоскового типа (имеют цельную сборно-сварочную конструкцию, напоминающую киоск) и мачтового типа (монтируются на стойках).<br>
+			Комплектные трансформаторные подстанции состоят из одного или двух трансформаторов, выдвижного высоковольтного блока, встроенного шкафа устройства высшего напряжения и встроенного распределительного устройства низкого напряжения. Силовой трансформатор в КТП может быть любого вида - масляный или сухой.
+	        		
+			</p></div>
+	        
+			<div id="mb2"><img src="img/kt.jpg" alt=""></div>
+			<div id="mb3">
+				<p>
+					Так как комплектная трансформаторная подстанция КТП является достаточно сложным и мощным устройством, она должна иметь несколько видов защиты, в частности: 		       <ul>
+		        		<li>защита от перенапряжений, вызванных атмосферными влияниями;</li>
+		        		<li>защита от междуфазных коротких замыканий;</li>
+		        		<li>защита от перегрузки и коротких замыканий линий 0,4 кВ;</li>
+		        		<li>защита от коротких замыканий цепей освещения трансформаторных подстанций КТП и цепей обогрева.</li>
+		        		<li>Комплектные трансформаторные подстанции имеют устройство, которое предусматривает несколько степеней блокировки (электрические и механические блокировки), а они позволяют обеспечить стопроцентную безопасность как для людей, работающих на них, так и для окружающей среды.</li>
+		        	</ul>
+				</p>
+			</div>
+			
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+	<script src="slick-1.8.1/slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  			$('.slider').slick({
+    			
+  			});
+		});
+		$('.slider').slick({
+
+		  dots: true,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 3,
+		  prevArrow: '<button class="prev arrow"></button>',
+		  nextArrow: '<button class="next arrow"></button>',
+		  slidesToScroll: 1,
+		  responsive: [
+		    {
+		      breakpoint: 1224,
+		      settings: {
+		        slidesToShow: 2,
+		        prevArrow: '<button class="prev arrow"></button>',
+		  		nextArrow: '<button class="next arrow"></button>',
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 900,
+		      settings: {
+		        slidesToShow: 1,
+		        prevArrow: '<button class="prev arrow"></button>',
+		  		nextArrow: '<button class="next arrow"></button>',
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        prevArrow: '<button class="prev arrow"></button>',
+		  		nextArrow: '<button class="next arrow"></button>',
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
+		});
+	</script>
+	
+	<script>
+		function slowScroll(id)
+		{
+			$('html, body').animate({
+				scrollTop: $(id).offset().top
+			}, 500);
+		}
+
+		$(document).on("scroll", function () {
+			if($(window).scrollTop() === 0)
+				$("header").removeClass("fixed");
+			else
+				$("header").attr("class", "fixed");
+		})
+	</script>
+<footer>
+		<div class="fdiv">
+
+			<p class="span" id="sp1">© 2021 ООО "ГорЭнерго" Красноярск</p>  <p id="sp3"  class="span font">Автор: BuHp</p> 
+		</div>
+</footer>
+</body>
+
+</html>
